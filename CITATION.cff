@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use these research data or scripts, cite this archived release. Cite the associated manuscript separately when available."
+type: dataset
+title: "Data and code for Service-Preserving Generative Moving Target Defense for Web Applications"
+authors:
+  - family-names: Yoon
+    given-names: YeoHoon
+    orcid: https://orcid.org/0009-0007-2669-8127
+  - family-names: Kim
+    given-names: Kyung-Sung
+    orcid: https://orcid.org/0009-0003-2591-9814
+version: "1.0.0"
+date-released: 2026-10-15
+repository-code: https://github.com/YeoHoonYun/service-preserving-generative-mtd-data
+license: CC-BY-4.0
