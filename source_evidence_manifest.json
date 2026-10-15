@@ -1,0 +1,2208 @@
+{
+  "kind": "Unified research manuscript with all cohorts and internal appendices; no new measurements during assembly",
+  "new_model_calls": 0,
+  "new_attack_trials": 0,
+  "date": "2026-10-14",
+  "table_numbers": {
+    "related": 1,
+    "criteria": 2,
+    "phases": 3,
+    "generation": 4,
+    "source": 5,
+    "runtime": 6,
+    "reuse": 7,
+    "pilot_calls": 8,
+    "controlled_calls": 9,
+    "method_diversity": 10,
+    "platform": 11,
+    "artifact_storage": 12,
+    "cycles": 13,
+    "lifecycle": 14,
+    "ablation": 15,
+    "reference_reuse": 16,
+    "invalidation": 17,
+    "cumulative": 18,
+    "security_outcomes": 19,
+    "rotation_replay": 20,
+    "security_tokens": 21,
+    "scenarios": 22,
+    "evidence": 23,
+    "source_layers": 24,
+    "validation_detail": 25,
+    "run_detail": 26,
+    "pilot_cumulative": 27,
+    "pilot_resources": 28,
+    "controlled_individual": 29,
+    "selection_methods": 30,
+    "controlled_reuse": 31,
+    "transition_detail": 32,
+    "fault_detail": 33,
+    "agreement_detail": 34,
+    "unchanged_detail": 35,
+    "validation_resources": 36,
+    "implementation_detail": 37,
+    "partial_invalidation": 38
+  },
+  "evidence_sha256": {
+    "paper/service-cost-study/cost_analysis.json": "7af9ff6b8efeae3b11875a008331bcb8ec6b913cbba8e329609d17e19c4e00ce",
+    "artifacts/scale-study-20261009/analysis.json": "8e85baa115da2634aeeee263269b3cafe565ce36c1df24bada42576fc3228b6a",
+    "artifacts/cost-revision-20261009/matched-runtime/summary.json": "50b50defcbfe863264833bef3f45e7f1ae566730b41e9fca7227890e19cd9bdc",
+    "artifacts/cost-revision-20261009/matched-runtime/protocol.json": "ada22603e62ad2c34f51849bae7b7a80b1d9e534d78e03813a90a981ed96e956",
+    "artifacts/cost-revision-20261009/matched-runtime/runs.json": "f9ae3402723757ba67e529a61de18e79fb1dbde69b5ede6d0174640b52a43c70",
+    "artifacts/caiv-extension-20261010/analysis.json": "a7548b6ad9f47c082547f186bb92391c4405f4e71be90a82475b59cbe44ac4ac",
+    "artifacts/caiv-study-20261010-r2/analysis.json": "3c4d03881b7a2e74914db3fa10537b032bd7f6655ecda3b73ce4bd1eb0e01f22",
+    "artifacts/invariance-review-20261010/audit.json": "61379c62faa8a69d45e6fd18e816b36cb1e7fe037346485def16493804ea35bb",
+    "paper/unified-mtd/integrated_table_records.json": "9437e7c073dcf50fdaf450920f397869bb4d6c580224a1e4e939a09a349ad74e",
+    "artifacts/non-intrusion-20261009/summary.json": "4149e13c78f428289d8643333a1e5afaec77d6c37069f3629296dd03dd11a0b8",
+    "artifacts/controlled-study-20261009/summary.json": "1748e8b50cb29c4568fff3d92b235a39c6dec272d7b5566f9142323695df0b5d",
+    "paper/controlled-study/english_secondary_analysis.json": "2a8b3c7a122ac74375591a44e0bdb5dc9af4f59b6afa198f7bc46fca9f7983ec",
+    "artifacts/fullstack-evolution/continuous-final/cycles.json": "7e24190529071c9687728754ff02c0404ae8aab429518d225feabd7286cbd83a",
+    "artifacts/caiv-study-20261010-r2/comparisons.json": "1d35c905e4da31c3e4a89d153eb0849807d69a86921b096bf412b5adeef9cdd3",
+    "artifacts/caiv-extension-20261010/comparisons.json": "06eb1dbba2f929b6df62e4754e466d5cd3320b1c6ec923deac1495abeb1327c1",
+    "artifacts/matched-rotation-study-20261014-archival-replay/results.json": "0234c16e8549b8b87ceb3ebe31f083d59bfa8c9afc2d447743724af1ffa885ac",
+    "artifacts/public-wire-study-20261012/results.json": "e29e5901529d44b8911be75570ca0af85352f74364c3f5c905ff45b0303530eb",
+    "artifacts/security-invariants-20261012-r3/summary.json": "dccea06547a9df4127e454eb0bf97bb7e00c6aa7da8827089b460c40991640b7",
+    "artifacts/intrusion-detection-pilot-20261010/summary.json": "3c7df402ee50e8f4138853dc9a1190b09e3bf74e730927ef9bf90c5f1ec57d13",
+    "artifacts/blind-matched-attack-20261014/audit.json": "4d53c72ce551c2525ef4118a79dec3334425d2bb4641cae154b0c0f812cb3c6e",
+    "artifacts/security-phase-response-20261014/summary.json": "758662ff4d84cb118f8c2824fce4fe9b1242ad8219b22988f3c29b7ee2cb8157",
+    "artifacts/final-security-scenarios-20261014/summary.json": "3ebc09ee710a6b926fbeb759890cfac3446270fb449c99f6514013e44c3ba386",
+    "artifacts/juice-shop-study-20261014/audit-final.json": "904722e9aa4f55b6fb5a3d950152ccf9add41621828b5f8536e340a3e9e31137",
+    "artifacts/juice-shop-study-20261014/usage.json": "1e2be8fb5eff31f8f066eaadad4088b7048970f62ac2acef2a1b74a8384f9776",
+    "artifacts/juice-shop-adaptive-20261014/audit.json": "ebf557059f7c5e0ba10705941e5109f1aca51de1fe547653ec053d0c1cb822dc",
+    "lab/minishop/security_policy.py": "0b2e85153e47935ccb5134089eb1726f12520a2c3b076076a704ddd93c4db951",
+    "lab/fullstack_generation/runtime.py": "7d4a44bb2b2dba8e65f9d657e3c43e7d2938981f1d0fbb027ea8c953d16d4d24",
+    "lab/fullstack_generation/verify.py": "bb25e8a4608954308365456c80193825891b7c3ac86a5e3e9114c943a02089aa",
+    "lab/caiv_extension/test_generated_contract.py": "2be5dd9c4dcd6991137cddd3cc1f6886ce28f6848836c8283b40ae2c495932e5",
+    "lab/scale_study/flaskr_adapter.py": "6f1dd42878a6593307b0093389bb13a0717c96740c79b0c3a156fa914ba8a9f4"
+  },
+  "tables": {
+    "related": {
+      "title": "Table 1. Relationship to prior research",
+      "headers": [
+        "Research",
+        "Relevant contribution",
+        "Boundary of this study"
+      ],
+      "rows": [
+        [
+          "NOMAD and WebRanz [1, 2]",
+          "Behavior-preserving web randomization and bot interference.",
+          "No priority claim for non-intrusive identifier or page changes."
+        ],
+        [
+          "Web application MTD [3, 4]",
+          "Diversity and changing attack exposure.",
+          "Finite generated artifacts; attacker uncertainty is not quantified."
+        ],
+        [
+          "WebCloak [5]",
+          "Page-level structural and semantic changes against LLM-driven scraping.",
+          "Executable service layers and contract invariance; no measured live-rotation AI advantage."
+        ],
+        [
+          "Galápagos [26]",
+          "LLM-generated pure-function variants, formal equivalence, concurrent N-version execution, and compiler-fault and function-cost evaluation.",
+          "Stateful web-service layers and test-bounded contract checks; no formal equivalence or direct superiority claim."
+        ],
+        [
+          "MoFaaS [21]",
+          "LLM-assisted serverless function generation plus MTD, attack and performance evaluation.",
+          "Web-service stack and fixed contract; current attack evidence has a narrower causal scope."
+        ],
+        [
+          "Code validation [9, 10]",
+          "Stronger tests and behavioral change checking.",
+          "Fixed web oracle remains finite and incomplete."
+        ],
+        [
+          "Regression selection [11, 12]",
+          "Selective execution based on change and dependencies.",
+          "Reuse is a measured secondary optimization."
+        ]
+      ]
+    },
+    "criteria": {
+      "title": "Table 2. Evaluation criteria and available evidence",
+      "headers": [
+        "Criterion",
+        "Decision or measurement",
+        "Evidence status"
+      ],
+      "rows": [
+        [
+          "C1 Business preservation",
+          "All mandatory outcomes, state transitions, and authorization assertions pass; retain failed attempts.",
+          "Observed for accepted candidates within the finite suites."
+        ],
+        [
+          "C2 Test invariance",
+          "Unchanged test and interpreter source; only mapping data vary within a protocol.",
+          "MiniShop source hashes and Flaskr original tests audited; evidence differs."
+        ],
+        [
+          "C3 Structural diversity",
+          "Report distinct source, AST, and mapping fingerprints with explicit normalization.",
+          "Finite diversity observed; exact stale replay tested, broad adaptation unknown."
+        ],
+        [
+          "C4 Service continuity",
+          "No extra user-facing gate; measure authorized completion, latency, state and session continuity.",
+          "Selected local checks pass; load and human usability unmeasured."
+        ],
+        [
+          "C5 Incremental cost",
+          "Use matched denominators; include rejected generation and validation work.",
+          "Source, tokens, validation, and bounded local resources measured."
+        ],
+        [
+          "C6 Adversarial benefit",
+          "Reduce harmful outcomes or raise adaptation cost at matched budgets without losing C1 and C4.",
+          "Live rotation invalidated prior mappings in a three-pair replay; harmful-outcome benefit unestablished."
+        ]
+      ]
+    },
+    "phases": {
+      "title": "Table 3. Experimental cohorts and counting units",
+      "headers": [
+        "Study",
+        "Population or repetitions",
+        "Primary outcome"
+      ],
+      "rows": [
+        [
+          "Compact source and validation",
+          "L0, L1, L2; six timing blocks per pattern count.",
+          "Source increment and validation scaling."
+        ],
+        [
+          "Generation campaign",
+          "Two applications × three contexts × ten slots; 66 calls.",
+          "60 accepted artifacts and token ledger."
+        ],
+        [
+          "Matched serving",
+          "Eight blocks × three conditions × twelve transactions.",
+          "288 transactions and 1,440 request assertions."
+        ],
+        [
+          "Selection phase V1",
+          "33 cases; 47 blocks; 211 method executions.",
+          "Timing, selection and fault decisions."
+        ],
+        [
+          "Selection phase V2",
+          "17 MiniShop cases; 24 blocks; 120 comparisons.",
+          "28 common component tests across five methods."
+        ],
+        [
+          "Source and generation pair audit",
+          "30 artifacts per app; 54 adjacent generation pairs.",
+          "Validation source records and observed reuse."
+        ],
+        [
+          "Full stack model pilot",
+          "Four accepted slots; six calls.",
+          "Attempt usage and artifact storage."
+        ],
+        [
+          "Controlled synthetic cohort",
+          "Three services × three methods × four slots.",
+          "Twelve LLM calls; 36 accepted candidate slots."
+        ],
+        [
+          "Validation component removal",
+          "21 faulty test cases × three repetitions; nine clean controls.",
+          "Contribution of functional security and UI checks."
+        ],
+        [
+          "Deterministic publication",
+          "Four local generation and publication cycles.",
+          "Archive and resident counts with local timings."
+        ],
+        [
+          "Short lifecycle runs",
+          "Two runs; 120 transitions and 480 checks each.",
+          "Pinned requests and code recovery."
+        ],
+        [
+          "Reference reuse",
+          "Twelve candidates × two paired repetitions.",
+          "48 method executions plus initial setup."
+        ],
+        [
+          "MiniShop security replay",
+          "27 adjacent generation pairs; 10 semantic UI workflows.",
+          "Exact replay, pinning and detection."
+        ],
+        [
+          "MiniShop three-arm rotation replay",
+          "Three accepted pairs; secured static, generated fixed, generated live rotation.",
+          "Archived AI mappings replayed on live HTTP; no new model inference."
+        ],
+        [
+          "Flaskr model and response",
+          "Four fixed targets; two models; 48 initial cases.",
+          "Harmful outcomes and phase response."
+        ],
+        [
+          "Fixed Juice Shop benchmark",
+          "One vulnerable app; two models; four model-by-class cases.",
+          "Attack and proxy response, separate from rotation."
+        ]
+      ]
+    },
+    "generation": {
+      "title": "Table 4. Generation outcomes and model token usage",
+      "headers": [
+        "Measure",
+        "MiniShop",
+        "Flaskr",
+        "Combined"
+      ],
+      "rows": [
+        [
+          "Accepted slots",
+          30,
+          30,
+          60
+        ],
+        [
+          "First-pass accepted slots",
+          27,
+          27,
+          54
+        ],
+        [
+          "Model calls",
+          33,
+          33,
+          66
+        ],
+        [
+          "Rejected calls",
+          3,
+          3,
+          6
+        ],
+        [
+          "Input tokens",
+          "643,625",
+          "411,112",
+          "1,054,737"
+        ],
+        [
+          "Output tokens",
+          "179,049",
+          "83,092",
+          "262,141"
+        ],
+        [
+          "Total tokens",
+          "822,674",
+          "494,204",
+          "1,316,878"
+        ],
+        [
+          "Tokens in rejected calls",
+          "78,089",
+          "43,341",
+          "121,430"
+        ],
+        [
+          "Joint AST fingerprints",
+          30,
+          30,
+          "Reported per app"
+        ]
+      ]
+    },
+    "source": {
+      "title": "Table 5. Maintained source in the compact implementation",
+      "headers": [
+        "Inventory",
+        "L0 Functional",
+        "L1 Secured",
+        "L2 Dynamic"
+      ],
+      "rows": [
+        [
+          "Service source tokens",
+          "3,896",
+          "4,686",
+          "5,118"
+        ],
+        [
+          "Validation source tokens",
+          "1,423",
+          "2,135",
+          "2,493"
+        ],
+        [
+          "Maintained total tokens",
+          "5,319",
+          "6,821",
+          "7,611"
+        ],
+        [
+          "Service nonblank lines",
+          294,
+          364,
+          403
+        ],
+        [
+          "Validation nonblank lines",
+          114,
+          153,
+          187
+        ]
+      ]
+    },
+    "runtime": {
+      "title": "Table 6. Mean serving costs across eight matched blocks",
+      "headers": [
+        "Condition",
+        "Workload time s",
+        "Target CPU s",
+        "Peak RSS MiB",
+        "Request median ms"
+      ],
+      "rows": [
+        [
+          "One resident fixed",
+          "5.913",
+          "5.182",
+          "37.40",
+          "5.52"
+        ],
+        [
+          "Four residents fixed",
+          "5.955",
+          "5.217",
+          "38.02",
+          "5.70"
+        ],
+        [
+          "Four residents rotating",
+          "7.451",
+          "5.725",
+          "39.69",
+          "6.81"
+        ]
+      ]
+    },
+    "reuse": {
+      "title": "Table 7. Mean validation time in seconds within each experimental phase",
+      "headers": [
+        "Application and phase",
+        "Cohort",
+        "B0",
+        "B1",
+        "B2",
+        "B3",
+        "P1"
+      ],
+      "rows": [
+        [
+          "MiniShop phase V2",
+          "Natural",
+          "19.70",
+          "14.15",
+          "14.05",
+          "14.57",
+          "14.65"
+        ],
+        [
+          "MiniShop phase V2",
+          "Controlled",
+          "24.12",
+          "17.28",
+          "17.92",
+          "18.50",
+          "18.67"
+        ],
+        [
+          "Flaskr phase V1",
+          "Natural",
+          "23.23",
+          "13.79",
+          "13.88",
+          "17.93",
+          "13.75"
+        ],
+        [
+          "Flaskr phase V1",
+          "Controlled",
+          "22.63",
+          "14.27",
+          "13.46",
+          "13.45",
+          "9.32"
+        ]
+      ]
+    },
+    "scenarios": {
+      "title": "Table 22. Observed abuse scenarios and remaining evaluation questions",
+      "headers": [
+        "Scenario",
+        "Fixed control or requirement",
+        "Possible role of increment",
+        "Evidence boundary"
+      ],
+      "rows": [
+        [
+          "Stale route or field replay",
+          "Strict contract validation and correct authorization.",
+          "Invalidate old representation assumptions.",
+          "Exact fresh-session replay 0/27; adaptive rediscovery untested."
+        ],
+        [
+          "Broad automated API enumeration",
+          "Schema checks, ownership checks, bounded error handling.",
+          "Reduce persistence of a learned route map.",
+          "Coverage gained per request and per token."
+        ],
+        [
+          "Credential guessing and login retries",
+          "Existing login failure limit and secure session handling.",
+          "No inherent credential protection from diversification.",
+          "Account compromise and legitimate login impact."
+        ],
+        [
+          "Cross-account or privileged access",
+          "Object ownership and role checks on every operation.",
+          "Change adapters while preserving the checks.",
+          "Unauthorized reads or writes under equal budgets."
+        ],
+        [
+          "Session or workflow replay",
+          "CSRF, Origin, session and state-transition checks.",
+          "Change bindings; pinning may preserve old access.",
+          "Pinned sessions 27/27; forced logout is a distinct Flaskr outcome."
+        ],
+        [
+          "Resource-intensive API repetition",
+          "Resource bounds and fixed baseline quota.",
+          "No substitute for resource control.",
+          "Capacity, tail latency, and authorized completion."
+        ],
+        [
+          "Valid but abusive business flows",
+          "Business-specific invariants and abuse policy.",
+          "May disrupt brittle automation only.",
+          "Harmful flow completion with valid requests."
+        ],
+        [
+          "Semantic AI rediscovery or scraping",
+          "Public-observer boundary and matched agent budgets.",
+          "Hypothesized extra interpretation or retry work.",
+          "MiniShop semantic UI 10/10; live-rotation model cost untested."
+        ]
+      ]
+    },
+    "evidence": {
+      "title": "Table 23. Local records for the experimental cohorts",
+      "headers": [
+        "Package",
+        "Principal records"
+      ],
+      "rows": [
+        [
+          "Compact cost inventory",
+          "paper/service-cost-study/cost_analysis.json"
+        ],
+        [
+          "Generation campaign",
+          "artifacts/scale-study-20261009/analysis.json"
+        ],
+        [
+          "Matched serving",
+          "artifacts/cost-revision-20261009/matched-runtime/"
+        ],
+        [
+          "Validation phase V1",
+          "artifacts/caiv-study-20261010-r2/analysis.json"
+        ],
+        [
+          "Validation phase V2",
+          "artifacts/caiv-extension-20261010/analysis.json"
+        ],
+        [
+          "Invariance audit",
+          "artifacts/invariance-review-20261010/audit.json"
+        ],
+        [
+          "Pilot and lifecycle",
+          "artifacts/non-intrusion-20261009/"
+        ],
+        [
+          "Deterministic platform",
+          "artifacts/fullstack-evolution/"
+        ],
+        [
+          "Controlled cohort and ablation",
+          "artifacts/controlled-study-20261009/"
+        ],
+        [
+          "Reference cache comparison",
+          "artifacts/scale-study-20261009/reuse/"
+        ],
+        [
+          "Security replay and invariants",
+          "artifacts/intrusion-detection-pilot-20261010/summary.json; artifacts/security-invariants-20261012-r3/summary.json"
+        ],
+        [
+          "Three-arm live replay and prior AI rediscovery",
+          "artifacts/matched-rotation-study-20261014-archival-replay/results.json; artifacts/public-wire-study-20261012/results.json"
+        ],
+        [
+          "Flaskr attack and response",
+          "artifacts/blind-matched-attack-20261014/audit.json; artifacts/security-phase-response-20261014/summary.json"
+        ],
+        [
+          "Juice Shop benchmark",
+          "artifacts/juice-shop-study-20261014/audit-final.json; artifacts/juice-shop-study-20261014/usage.json"
+        ],
+        [
+          "Detection gap and follow-up",
+          "artifacts/final-security-scenarios-20261014/summary.json; artifacts/juice-shop-adaptive-20261014/audit.json"
+        ]
+      ]
+    },
+    "pilot_calls": {
+      "title": "Table 8. Every model call in the full stack pilot",
+      "headers": [
+        "Slot",
+        "Attempt",
+        "Outcome",
+        "Input tokens",
+        "Output tokens",
+        "Total tokens",
+        "Provider time s"
+      ],
+      "rows": [
+        [
+          1,
+          1,
+          "Accepted",
+          "17,677",
+          "3,778",
+          "21,455",
+          "114.086"
+        ],
+        [
+          2,
+          1,
+          "Rejected",
+          "19,189",
+          "5,744",
+          "24,933",
+          "156.712"
+        ],
+        [
+          2,
+          2,
+          "Accepted",
+          "19,381",
+          "4,401",
+          "23,782",
+          "141.610"
+        ],
+        [
+          3,
+          1,
+          "Accepted",
+          "20,523",
+          "5,104",
+          "25,627",
+          "177.407"
+        ],
+        [
+          4,
+          1,
+          "Rejected",
+          "17,736",
+          "5,975",
+          "23,711",
+          "207.711"
+        ],
+        [
+          4,
+          2,
+          "Accepted",
+          "17,930",
+          "5,354",
+          "23,284",
+          "189.101"
+        ]
+      ]
+    },
+    "controlled_calls": {
+      "title": "Table 9. Model calls for the controlled services with fixed public contracts",
+      "headers": [
+        "Service",
+        "Accepted calls",
+        "Input tokens",
+        "Output tokens",
+        "Total tokens",
+        "Provider time s"
+      ],
+      "rows": [
+        [
+          "Shop",
+          "4 of 4",
+          "43,774",
+          "4,214",
+          "47,988",
+          "146.151"
+        ],
+        [
+          "Booking",
+          "4 of 4",
+          "43,760",
+          "5,028",
+          "48,788",
+          "166.219"
+        ],
+        [
+          "Workflow",
+          "4 of 4",
+          "43,764",
+          "5,587",
+          "49,351",
+          "189.455"
+        ]
+      ]
+    },
+    "platform": {
+      "title": "Table 11. Source inventory of the generation platform and deterministic artifacts",
+      "headers": [
+        "Item",
+        "Source tokens",
+        "Accounting role"
+      ],
+      "rows": [
+        [
+          "Compiler",
+          "3,891",
+          "Fixed generation support"
+        ],
+        [
+          "Runtime",
+          "3,138",
+          "Fixed host and lifecycle support"
+        ],
+        [
+          "Validator",
+          "5,653",
+          "Fixed acceptance support"
+        ],
+        [
+          "Cycle controller",
+          "1,165",
+          "Fixed repeated workflow support"
+        ],
+        [
+          "Audit reporter",
+          "2,626",
+          "Research accounting support"
+        ],
+        [
+          "Shared business and security core",
+          "2,214",
+          "Shared service logic"
+        ],
+        [
+          "Generated artifact G1",
+          "9,327",
+          "Per generation source and contract"
+        ],
+        [
+          "Generated artifact G2",
+          "11,030",
+          "Per generation source and contract"
+        ],
+        [
+          "Generated artifact G3",
+          "12,672",
+          "Per generation source and contract"
+        ],
+        [
+          "Generated artifact G4",
+          "13,663",
+          "Per generation source and contract"
+        ]
+      ]
+    },
+    "artifact_storage": {
+      "title": "Table 12. Source and contract storage for the model pilot",
+      "headers": [
+        "Generation",
+        "Source tokens in manifest",
+        "Source bytes in manifest",
+        "Cumulative source bytes"
+      ],
+      "rows": [
+        [
+          "G1",
+          "11,605",
+          "31,699",
+          "31,699"
+        ],
+        [
+          "G2",
+          "13,218",
+          "35,886",
+          "67,585"
+        ],
+        [
+          "G3",
+          "14,561",
+          "38,852",
+          "106,437"
+        ],
+        [
+          "G4",
+          "11,677",
+          "31,646",
+          "138,083"
+        ]
+      ]
+    },
+    "cycles": {
+      "title": "Table 13. Timing and artifact counts for local publication cycles",
+      "headers": [
+        "Cycle",
+        "Emit and load s",
+        "Validation s",
+        "Publication s",
+        "Archive count",
+        "Resident count"
+      ],
+      "rows": [
+        [
+          1,
+          "0.0551",
+          "9.290",
+          "0.0185",
+          1,
+          1
+        ],
+        [
+          2,
+          "0.0625",
+          "9.875",
+          "0.0282",
+          2,
+          2
+        ],
+        [
+          3,
+          "0.0579",
+          "9.635",
+          "0.0389",
+          3,
+          3
+        ],
+        [
+          4,
+          "0.0753",
+          "9.667",
+          "0.0290",
+          4,
+          3
+        ]
+      ]
+    },
+    "ablation": {
+      "title": "Table 15. Fault detection by functional security and interface checks",
+      "headers": [
+        "Enabled components",
+        "Faulty observations rejected",
+        "Clean observations rejected",
+        "Median clean check time s"
+      ],
+      "rows": [
+        [
+          "Functional",
+          "18 of 63",
+          "0 of 9",
+          "0.016"
+        ],
+        [
+          "Functional and security",
+          "36 of 63",
+          "0 of 9",
+          "0.022"
+        ],
+        [
+          "Functional security and UI",
+          "63 of 63",
+          "0 of 9",
+          "5.682"
+        ]
+      ]
+    },
+    "reference_reuse": {
+      "title": "Table 16. Reference reuse with all candidate checks retained",
+      "headers": [
+        "Application",
+        "Full mean s",
+        "Warm reuse s",
+        "Warm reduction",
+        "Net reduction"
+      ],
+      "rows": [
+        [
+          "MiniShop",
+          "9.160",
+          "5.918",
+          "35.4%",
+          "27.2%"
+        ],
+        [
+          "Flaskr",
+          "12.668",
+          "8.696",
+          "31.4%",
+          "23.3%"
+        ]
+      ]
+    },
+    "invalidation": {
+      "title": "Table 17. Measured costs when the reference cache is always invalidated",
+      "headers": [
+        "Application",
+        "Pairs",
+        "B0 mean s",
+        "B1 mean s",
+        "B1 minus B0 s",
+        "B1 cache hits"
+      ],
+      "rows": [
+        [
+          "MiniShop",
+          3,
+          "22.55",
+          "21.61",
+          "-0.94",
+          0
+        ],
+        [
+          "Flaskr",
+          3,
+          "23.78",
+          "22.87",
+          "-0.91",
+          0
+        ]
+      ]
+    },
+    "cumulative": {
+      "title": "Table 18. Cumulative costs with predecessor validation charged to P1",
+      "headers": [
+        "Application and cohort",
+        "N",
+        "Predecessor cost s",
+        "B1 sum s",
+        "P1 plus setup s",
+        "Net time saved s"
+      ],
+      "rows": [
+        [
+          "MiniShop natural",
+          6,
+          "76.30",
+          "84.91",
+          "164.18",
+          "-79.27"
+        ],
+        [
+          "MiniShop controlled",
+          8,
+          "30.41",
+          "138.21",
+          "179.76",
+          "-41.55"
+        ],
+        [
+          "Flaskr natural",
+          6,
+          "64.66",
+          "82.73",
+          "147.18",
+          "-64.45"
+        ],
+        [
+          "Flaskr controlled",
+          8,
+          "21.67",
+          "114.18",
+          "96.25",
+          "17.94"
+        ]
+      ]
+    },
+    "source_layers": {
+      "title": "Table 24. Compact service source tokens by layer",
+      "headers": [
+        "Source group",
+        "L0",
+        "L1",
+        "L2"
+      ],
+      "rows": [
+        [
+          "Frontend and document",
+          1242,
+          1242,
+          1242
+        ],
+        [
+          "Business and HTTP core",
+          2171,
+          2171,
+          2171
+        ],
+        [
+          "Static codec",
+          240,
+          240,
+          240
+        ],
+        [
+          "Policy",
+          243,
+          1033,
+          1033
+        ],
+        [
+          "Dynamic codec",
+          0,
+          0,
+          432
+        ]
+      ]
+    },
+    "validation_detail": {
+      "title": "Table 25. Validation timing across six blocks",
+      "headers": [
+        "Condition",
+        "Mean s",
+        "Sample SD s",
+        "95% interval for mean s",
+        "Ratio to L1"
+      ],
+      "rows": [
+        [
+          "L1 fixed",
+          "4.503",
+          "0.069",
+          "4.455 to 4.559",
+          "1.000"
+        ],
+        [
+          "L2 K = 2",
+          "9.420",
+          "0.150",
+          "9.325 to 9.537",
+          "2.092"
+        ],
+        [
+          "L2 K = 4",
+          "18.719",
+          "0.321",
+          "18.512 to 18.964",
+          "4.157"
+        ],
+        [
+          "L2 K = 8",
+          "38.090",
+          "1.015",
+          "37.442 to 38.900",
+          "8.458"
+        ]
+      ]
+    },
+    "run_detail": {
+      "title": "Table 26. Generation outcomes within each run",
+      "headers": [
+        "Application and run",
+        "Accepted slots",
+        "Calls",
+        "Tokens",
+        "Rejected attempts"
+      ],
+      "rows": [
+        [
+          "MiniShop 1",
+          10,
+          10,
+          "248,658",
+          0
+        ],
+        [
+          "MiniShop 2",
+          10,
+          11,
+          "278,161",
+          1
+        ],
+        [
+          "MiniShop 3",
+          10,
+          12,
+          "295,855",
+          2
+        ],
+        [
+          "Flaskr 1",
+          10,
+          11,
+          "164,201",
+          1
+        ],
+        [
+          "Flaskr 2",
+          10,
+          11,
+          "164,752",
+          1
+        ],
+        [
+          "Flaskr 3",
+          10,
+          11,
+          "165,251",
+          1
+        ]
+      ]
+    },
+    "pilot_cumulative": {
+      "title": "Table 27. Per slot and cumulative usage in the model pilot",
+      "headers": [
+        "Slot",
+        "Calls",
+        "Marginal tokens",
+        "Cumulative tokens",
+        "Provider time s",
+        "Validation s"
+      ],
+      "rows": [
+        [
+          1,
+          1,
+          "21,455",
+          "21,455",
+          "114.086",
+          "9.320"
+        ],
+        [
+          2,
+          2,
+          "48,715",
+          "70,170",
+          "298.322",
+          "9.908"
+        ],
+        [
+          3,
+          1,
+          "25,627",
+          "95,797",
+          "177.407",
+          "9.372"
+        ],
+        [
+          4,
+          2,
+          "46,995",
+          "142,792",
+          "396.812",
+          "10.037"
+        ]
+      ]
+    },
+    "pilot_resources": {
+      "title": "Table 28. Partially measured resources in the sequential pilot",
+      "headers": [
+        "Resource",
+        "Recorded amount",
+        "Measurement boundary"
+      ],
+      "rows": [
+        [
+          "Provider call wall time",
+          "986.627 s",
+          "Sum over six calls"
+        ],
+        [
+          "Complete run wall time",
+          "1,031.360 s",
+          "Sequential generation run"
+        ],
+        [
+          "Coordinator CPU",
+          "0.5625 s",
+          "Coordinator process"
+        ],
+        [
+          "Materialization CPU",
+          "0.3125 s",
+          "Recorded accepted materializations"
+        ],
+        [
+          "Validation CPU",
+          "24.046875 s",
+          "Recorded Python validation processes"
+        ],
+        [
+          "Stored artifact bytes",
+          "160,161",
+          "Run reported store accounting"
+        ],
+        [
+          "Memory and browser CPU",
+          "Unmeasured",
+          "No complete process tree accounting"
+        ],
+        [
+          "Billing and remote hosting",
+          "Unmeasured",
+          "No actual charge or remote server experiment"
+        ]
+      ]
+    },
+    "controlled_individual": {
+      "title": "Table 29. Individual model calls for the synthetic services",
+      "headers": [
+        "Trial",
+        "Input tokens",
+        "Output tokens",
+        "Cached input tokens",
+        "Provider time s",
+        "Validation s"
+      ],
+      "rows": [
+        [
+          "Shop 1",
+          "10,944",
+          "1,053",
+          "0",
+          "41.755",
+          "7.482"
+        ],
+        [
+          "Shop 2",
+          "10,940",
+          "1,043",
+          "8,320",
+          "34.000",
+          "7.984"
+        ],
+        [
+          "Shop 3",
+          "10,946",
+          "1,058",
+          "0",
+          "35.681",
+          "6.491"
+        ],
+        [
+          "Shop 4",
+          "10,944",
+          "1,060",
+          "8,320",
+          "34.715",
+          "6.495"
+        ],
+        [
+          "Booking 1",
+          "10,940",
+          "1,430",
+          "0",
+          "54.556",
+          "7.490"
+        ],
+        [
+          "Booking 2",
+          "10,940",
+          "1,290",
+          "0",
+          "41.824",
+          "7.269"
+        ],
+        [
+          "Booking 3",
+          "10,940",
+          "1,266",
+          "8,320",
+          "38.597",
+          "6.697"
+        ],
+        [
+          "Booking 4",
+          "10,940",
+          "1,042",
+          "0",
+          "31.242",
+          "6.306"
+        ],
+        [
+          "Workflow 1",
+          "10,939",
+          "1,298",
+          "0",
+          "49.465",
+          "7.777"
+        ],
+        [
+          "Workflow 2",
+          "10,943",
+          "1,522",
+          "8,320",
+          "48.877",
+          "6.662"
+        ],
+        [
+          "Workflow 3",
+          "10,941",
+          "1,499",
+          "8,320",
+          "48.387",
+          "6.567"
+        ],
+        [
+          "Workflow 4",
+          "10,941",
+          "1,268",
+          "0",
+          "42.727",
+          "6.579"
+        ]
+      ]
+    },
+    "selection_methods": {
+      "title": "Table 30. Candidate validation policies for the five methods",
+      "headers": [
+        "Method",
+        "Execution policy"
+      ],
+      "rows": [
+        [
+          "B0",
+          "Full candidate suite with a fresh reference capture."
+        ],
+        [
+          "B1",
+          "Full candidate suite with a warmed reference capture."
+        ],
+        [
+          "B2",
+          "Conservative file dependencies select optional groups; mandatory invariants remain."
+        ],
+        [
+          "B3",
+          "Actual pytest-testmon 2.2.0 selects pytests; invariants, lifecycle or durability, and browser checks still run. Detected identity and external artifact changes force full pytests."
+        ],
+        [
+          "P1",
+          "Bounded contract and function dependency closures select optional groups; evidence or analysis uncertainty triggers full validation."
+        ]
+      ]
+    },
+    "controlled_reuse": {
+      "title": "Table 31. Optional group reuse after controlled edits",
+      "headers": [
+        "Case",
+        "Groups reused",
+        "Group names or outcome",
+        "Time saved vs B1 s"
+      ],
+      "rows": [
+        [
+          "MiniShop Python comment",
+          "0",
+          "All groups executed",
+          "0.75"
+        ],
+        [
+          "MiniShop leaf pass",
+          "0",
+          "All groups executed",
+          "-0.96"
+        ],
+        [
+          "MiniShop CSS comment",
+          "0",
+          "All groups executed",
+          "-0.14"
+        ],
+        [
+          "MiniShop document partition",
+          "0",
+          "All groups executed",
+          "-5.22"
+        ],
+        [
+          "Flaskr Python comment",
+          "3",
+          "pytest, durability, browser",
+          "11.99"
+        ],
+        [
+          "Flaskr leaf pass",
+          "1",
+          "browser",
+          "8.46"
+        ],
+        [
+          "Flaskr CSS comment",
+          "2",
+          "pytest, durability",
+          "-0.50"
+        ],
+        [
+          "Flaskr document partition",
+          "0",
+          "All groups executed",
+          "-0.15"
+        ]
+      ]
+    },
+    "transition_detail": {
+      "title": "Table 32. Adjacent generation comparisons excluding unchanged controls",
+      "headers": [
+        "Application",
+        "Adjacent pairs",
+        "Pairs with reuse",
+        "Analyzer-forced fallbacks"
+      ],
+      "rows": [
+        [
+          "MiniShop",
+          27,
+          0,
+          0
+        ],
+        [
+          "Flaskr",
+          27,
+          0,
+          14
+        ]
+      ]
+    },
+    "fault_detail": {
+      "title": "Table 33. Faulty candidates rejected by each complete validation method",
+      "headers": [
+        "Application and fault",
+        "B0",
+        "B1",
+        "B2",
+        "B3",
+        "P1"
+      ],
+      "rows": [
+        [
+          "MiniShop backend",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "MiniShop routing",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "MiniShop JavaScript",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "MiniShop CSS",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "MiniShop accessibility",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "MiniShop contract",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "MiniShop session",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "MiniShop version",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "MiniShop CSRF",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "MiniShop archived model-generated frontend failure",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "Flaskr backend",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "Flaskr routing",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "Flaskr ownership",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "Flaskr authentication",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "Flaskr session",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "Flaskr persistence",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "Flaskr schema",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "Flaskr accessibility",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ],
+        [
+          "Flaskr CSS",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1",
+          "1/1"
+        ]
+      ]
+    },
+    "agreement_detail": {
+      "title": "Table 34. Method decisions compared with independent full validation",
+      "headers": [
+        "Application and phase",
+        "Method",
+        "Blocks",
+        "False accepts",
+        "False rejects"
+      ],
+      "rows": [
+        [
+          "MiniShop Phase V2",
+          "B1",
+          24,
+          0,
+          0
+        ],
+        [
+          "MiniShop Phase V2",
+          "B2",
+          24,
+          0,
+          0
+        ],
+        [
+          "MiniShop Phase V2",
+          "B3",
+          24,
+          0,
+          0
+        ],
+        [
+          "MiniShop Phase V2",
+          "P1",
+          24,
+          0,
+          0
+        ],
+        [
+          "Flaskr Phase V1",
+          "B1",
+          23,
+          0,
+          0
+        ],
+        [
+          "Flaskr Phase V1",
+          "B2",
+          23,
+          0,
+          0
+        ],
+        [
+          "Flaskr Phase V1",
+          "B3",
+          23,
+          0,
+          1
+        ],
+        [
+          "Flaskr Phase V1",
+          "P1",
+          23,
+          0,
+          0
+        ]
+      ]
+    },
+    "unchanged_detail": {
+      "title": "Table 35. Native test selection for unchanged MiniShop artifacts",
+      "headers": [
+        "Predecessor index",
+        "Cold pytest tests",
+        "Warm pytest tests",
+        "Warm acceptance"
+      ],
+      "rows": [
+        [
+          1,
+          28,
+          0,
+          "Passed"
+        ],
+        [
+          2,
+          28,
+          0,
+          "Passed"
+        ],
+        [
+          3,
+          28,
+          0,
+          "Passed"
+        ],
+        [
+          4,
+          28,
+          0,
+          "Passed"
+        ]
+      ]
+    },
+    "validation_resources": {
+      "title": "Table 36. Validation resource measurements within each phase",
+      "headers": [
+        "Application and cohort",
+        "CPU B1 s",
+        "CPU P1 s",
+        "RSS B1 MiB",
+        "RSS P1 MiB"
+      ],
+      "rows": [
+        [
+          "MiniShop natural",
+          "15.94",
+          "16.46",
+          "659.23",
+          "657.78"
+        ],
+        [
+          "MiniShop controlled",
+          "18.24",
+          "19.26",
+          "658.46",
+          "654.10"
+        ],
+        [
+          "Flaskr natural",
+          "18.92",
+          "18.91",
+          "710.03",
+          "706.48"
+        ],
+        [
+          "Flaskr controlled",
+          "19.03",
+          "10.06",
+          "705.01",
+          "411.28"
+        ]
+      ]
+    },
+    "partial_invalidation": {
+      "title": "Table 38. Modeled break even horizons under partial invalidation",
+      "headers": [
+        "Application",
+        "Invalidation q",
+        "N with capture setup",
+        "N with full primer"
+      ],
+      "rows": [
+        [
+          "MiniShop",
+          0,
+          1,
+          3
+        ],
+        [
+          "MiniShop",
+          0.1,
+          1,
+          4
+        ],
+        [
+          "MiniShop",
+          0.25,
+          2,
+          4
+        ],
+        [
+          "MiniShop",
+          0.5,
+          2,
+          5
+        ],
+        [
+          "Flaskr",
+          0,
+          1,
+          3
+        ],
+        [
+          "Flaskr",
+          0.1,
+          1,
+          3
+        ],
+        [
+          "Flaskr",
+          0.25,
+          2,
+          3
+        ],
+        [
+          "Flaskr",
+          0.5,
+          2,
+          4
+        ]
+      ]
+    },
+    "lifecycle": {
+      "title": "Table 14. Short operational runs and code recovery",
+      "headers": [
+        "Observation",
+        "Deterministic artifacts",
+        "Model pilot artifacts"
+      ],
+      "rows": [
+        [
+          "Active transitions",
+          120,
+          120
+        ],
+        [
+          "Pinned catalogue checks",
+          480,
+          480
+        ],
+        [
+          "Run duration s",
+          "60.012",
+          "60.002"
+        ],
+        [
+          "Sessions after cold recovery",
+          0,
+          0
+        ],
+        [
+          "Orders after cold recovery",
+          0,
+          0
+        ],
+        [
+          "Recovery scope",
+          "Approved code only",
+          "Approved code only"
+        ]
+      ]
+    },
+    "implementation_detail": {
+      "title": "Table 37. Maintained research code for validation and selection",
+      "headers": [
+        "Scope",
+        "Files",
+        "Lines",
+        "Bytes",
+        "Source tokens"
+      ],
+      "rows": [
+        [
+          "Phase V1 selector",
+          1,
+          112,
+          "7,221",
+          "1,734"
+        ],
+        [
+          "Phase V1 validation executor",
+          3,
+          258,
+          "18,890",
+          "4,647"
+        ],
+        [
+          "Phase V1 experimental design",
+          2,
+          215,
+          "18,435",
+          "4,634"
+        ],
+        [
+          "Phase V2 run_extension.py",
+          1,
+          85,
+          "6,154",
+          "1,595"
+        ],
+        [
+          "Phase V2 test_generated_contract.py",
+          1,
+          59,
+          "2,514",
+          "580"
+        ],
+        [
+          "Phase V2 worker_ext.py",
+          1,
+          46,
+          "2,870",
+          "728"
+        ]
+      ]
+    },
+    "method_diversity": {
+      "title": "Table 10. Construction method and structural diversity in the controlled cohort",
+      "headers": [
+        "Service",
+        "Method",
+        "Accepted",
+        "Router AST",
+        "Backend AST",
+        "Document AST",
+        "JS variants",
+        "Mean s"
+      ],
+      "rows": [
+        [
+          "Shop",
+          "Static",
+          4,
+          1,
+          1,
+          1,
+          1,
+          "7.02"
+        ],
+        [
+          "Shop",
+          "Rule",
+          4,
+          4,
+          4,
+          1,
+          1,
+          "7.24"
+        ],
+        [
+          "Shop",
+          "LLM",
+          4,
+          3,
+          4,
+          2,
+          4,
+          "7.11"
+        ],
+        [
+          "Booking",
+          "Static",
+          4,
+          1,
+          1,
+          1,
+          1,
+          "7.06"
+        ],
+        [
+          "Booking",
+          "Rule",
+          4,
+          4,
+          4,
+          1,
+          1,
+          "7.23"
+        ],
+        [
+          "Booking",
+          "LLM",
+          4,
+          4,
+          4,
+          4,
+          4,
+          "6.94"
+        ],
+        [
+          "Workflow",
+          "Static",
+          4,
+          1,
+          1,
+          1,
+          1,
+          "6.71"
+        ],
+        [
+          "Workflow",
+          "Rule",
+          4,
+          4,
+          4,
+          1,
+          1,
+          "6.99"
+        ],
+        [
+          "Workflow",
+          "LLM",
+          4,
+          2,
+          3,
+          4,
+          4,
+          "6.90"
+        ]
+      ]
+    },
+    "security_outcomes": {
+      "title": "Table 19. Observed security outcomes with nonpooled denominators",
+      "headers": [
+        "Target and condition",
+        "Observed harmful goal",
+        "Control or detector",
+        "Interpretation"
+      ],
+      "rows": [
+        [
+          "MiniShop fresh stale replay, 27 pairs",
+          "0/27",
+          "Stale traces flagged 27/27",
+          "Exact learned structure expired."
+        ],
+        [
+          "MiniShop pinned and semantic",
+          "27/27 pinned; 10/10 UI",
+          "Pinned traces flagged 0/27",
+          "Continuity and semantic automation survived."
+        ],
+        [
+          "Flaskr initial model cases",
+          "8/48; one distinct logout class",
+          "Known pre-rule 4/4 blocks",
+          "Fixed targets; no live rotation effect."
+        ],
+        [
+          "Flaskr feedback and post-rule",
+          "0/48 feedback; 0/48 post",
+          "Defended replay 0/96",
+          "Limited case set; first loss not reversed."
+        ],
+        [
+          "Juice Shop initial model cases",
+          "2/4 Sol; 2/4 Astra",
+          "Pre-rule 4/4 blocks",
+          "Two classes on one fixed vulnerable app."
+        ],
+        [
+          "Juice Shop during and after",
+          "First 4/4 succeeded",
+          "Fallback second 4/4 blocked; final 4/4 blocked; valid 4/4 passed",
+          "Proxy path only; direct upstream remained exposed."
+        ]
+      ]
+    },
+    "rotation_replay": {
+      "title": "Table 20. Three-arm MiniShop live rotation replay",
+      "headers": [
+        "Arm",
+        "Prior mapping works",
+        "Authorized task",
+        "Forbidden change",
+        "HTTP requests"
+      ],
+      "rows": [
+        [
+          "S0 secured static (attack B0)",
+          "3/3",
+          "3/3",
+          "0/3",
+          "8 per block"
+        ],
+        [
+          "S1 generated fixed (attack B1)",
+          "3/3",
+          "3/3",
+          "0/3",
+          "8 per block"
+        ],
+        [
+          "S2 generated rotation (attack P1)",
+          "0/3; stale route 404",
+          "3/3 after archived successor map",
+          "0/3",
+          "15 per block"
+        ]
+      ]
+    },
+    "security_tokens": {
+      "title": "Table 21. Provider token ledger by experimental role",
+      "headers": [
+        "Cohort and role",
+        "Model or path A",
+        "Model or path B",
+        "Combined and scope"
+      ],
+      "rows": [
+        [
+          "Flaskr model attack",
+          "160,651",
+          "157,928",
+          "318,579; initial, feedback and post-defense proposals"
+        ],
+        [
+          "Flaskr policy selection",
+          "10,364 AI-only",
+          "10,338 fallback",
+          "Separate calls; phase replays 0 new model tokens"
+        ],
+        [
+          "Juice Shop model attack",
+          "21,349",
+          "21,218",
+          "42,567; initial and feedback"
+        ],
+        [
+          "Juice Shop model defense",
+          "31,236",
+          "30,922",
+          "62,158; includes false-positive correction"
+        ],
+        [
+          "Juice Shop total",
+          "52,585",
+          "52,140",
+          "104,725; attack plus defense"
+        ],
+        [
+          "ARTEX restricted replay",
+          "0 independent calls",
+          "0 independent calls",
+          "16 deterministic bridge calls in eight jobs"
+        ],
+        [
+          "Rejected follow-up request",
+          "Unknown",
+          "No Astra call",
+          "Provider usage unknown; no completed adaptive test"
+        ]
+      ]
+    }
+  },
+  "author_metadata_status": "Author order, shared affiliation, and correspondence supplied from the user reference PDF; revised rotation text awaits final author review",
+  "references": [
+    {
+      "citation": "S. Vikram, C. Yang, and G. Gu. NOMAD: Towards Non-Intrusive Moving-Target Defense against Web Bots. IEEE Conference on Communications and Network Security, 2013. DOI 10.1109/CNS.2013.6682692.",
+      "url": "https://people.engr.tamu.edu/guofei/paper/NOMAD_CNS13.pdf",
+      "review_level": "Author hosted paper; abstract and introduction"
+    },
+    {
+      "citation": "W. Wang, Y. Zheng, X. Xing, Y. Kwon, X. Zhang, and P. Eugster. WebRanz: Web Page Randomization for Better Advertisement Delivery and Web-Bot Prevention. ACM FSE, 2016. DOI 10.1145/2950290.2950352.",
+      "url": "https://research.ibm.com/publications/webranz-web-page-randomization-for-better-advertisement-delivery-and-web-bot-prevention"
+    },
+    {
+      "citation": "M. Taguinod, A. Doupé, Z. Zhao, and G.-J. Ahn. “Toward a Moving Target Defense for Web Applications.” IEEE International Conference on Information Reuse and Integration, pp. 510–517, 2015. DOI 10.1109/IRI.2015.84.",
+      "url": "https://adamdoupe.com/publications/toward-a-moving-target-defense-for-web-applications.pdf"
+    },
+    {
+      "citation": "P. Larsen, A. Homescu, S. Brunthaler, and M. Franz. “SoK: Automated Software Diversity.” IEEE Symposium on Security and Privacy, 2014.",
+      "url": "https://ics.uci.edu/~perl/publication/diversity_sok/"
+    },
+    {
+      "citation": "X. Li et al. WebCloak: Characterizing and Mitigating Threats From LLM-Driven Web Agents as Intelligent Scrapers. IEEE Symposium on Security and Privacy, 2026. DOI 10.1109/SP63933.2026.00025.",
+      "url": "https://letterligo.netlify.app/paper/SP26_WebAgent.pdf",
+      "review_level": "Full text Section 7.5 and IEEE accepted paper list"
+    },
+    {
+      "citation": "F. Trama. Denying the World Model: Automated Moving Target Defense as an Architectural Countermeasure to Autonomous AI Agents. Zenodo preprint, version 1.2, 16 July 2026. DOI 10.5281/zenodo.21396968.",
+      "url": "https://zenodo.org/records/21396968"
+    },
+    {
+      "citation": "G. Deng et al. PentestGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing. USENIX Security, pp. 847-864, 2024.",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/deng",
+      "review_level": "Publisher abstract and BibTeX"
+    },
+    {
+      "citation": "Y. Zhu et al. CVE-Bench: A Benchmark for AI Agents’ Ability to Exploit Real-World Web Application Vulnerabilities. Proceedings of the 42nd International Conference on Machine Learning, PMLR 267, pp. 79850–79867, 2025.",
+      "url": "https://proceedings.mlr.press/v267/zhu25i.html"
+    },
+    {
+      "citation": "J. Liu, C. S. Xia, Y. Wang, and L. Zhang. Is Your Code Generated by ChatGPT Really Correct? Rigorous Evaluation of Large Language Models for Code Generation. Advances in Neural Information Processing Systems 36, 2023.",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/43e9d647ccd3e4b7b5baab53f0368686-Abstract.html"
+    },
+    {
+      "citation": "L. Gröninger, B. Souza, and M. Pradel. ChangeGuard: Validating Code Changes via Pairwise Learning-Guided Execution. Proceedings of the ACM on Software Engineering 2(FSE), article FSE043, pp. 936–956, 2025. DOI 10.1145/3715760.",
+      "url": "https://doi.org/10.1145/3715760"
+    },
+    {
+      "citation": "O. Legunsen, F. Hariri, A. Shi, Y. Lu, L. Zhang, and D. Marinov. An Extensive Study of Static Regression Test Selection in Modern Software Evolution. FSE, 2016. DOI 10.1145/2950290.2950361.",
+      "url": "https://www.cs.cornell.edu/~legunsen/pubs/LegunsenETAL16StaticRTSStudy.pdf",
+      "review_level": "Author manuscript abstract and Sections 1 and 2"
+    },
+    {
+      "citation": "pytest-testmon. Dependency-based test selection documentation. Accessed 10 October 2026. Experiment version 2.2.0.",
+      "url": "https://www.testmon.org/"
+    },
+    {
+      "citation": "Microsoft. Playwright documentation: Locators. Accessed 10 October 2026.",
+      "url": "https://playwright.dev/docs/locators"
+    },
+    {
+      "citation": "Pallets. Flask tutorial application source, tag 3.1.2.",
+      "url": "https://github.com/pallets/flask/tree/3.1.2/examples/tutorial"
+    },
+    {
+      "citation": "OWASP. API4:2023 Unrestricted Resource Consumption. OWASP API Security Top 10, 2023.",
+      "url": "https://api-security.owasp.org/editions/2023/en/0xa4-unrestricted-resource-consumption/"
+    },
+    {
+      "citation": "OWASP. API6:2023 Unrestricted Access to Sensitive Business Flows. OWASP API Security Top 10, 2023.",
+      "url": "https://api-security.owasp.org/editions/2023/en/0xa6-unrestricted-access-to-sensitive-business-flows/"
+    },
+    {
+      "citation": "S. Kapoor, B. Stroebl, Z. S. Siegel, N. Nadgir, and A. Narayanan. AI Agents That Matter. arXiv:2407.01502, 2024.",
+      "url": "https://arxiv.org/abs/2407.01502",
+      "review_level": "Author abstract and metadata"
+    },
+    {
+      "citation": "Y. Peng, J. Wan, Y. Li, and X. Ren. COFFE: A Code Efficiency Benchmark for Code Generation. FSE, 2025. Referenced version arXiv:2502.02827.",
+      "url": "https://arxiv.org/abs/2502.02827",
+      "review_level": "Author abstract; acceptance reported in arXiv comments"
+    },
+    {
+      "citation": "C. Zhu, O. Legunsen, A. Shi, and M. Gligoric. A Framework for Checking Regression Test Selection Tools. ICSE, pp. 430-441, 2019.",
+      "url": "https://www.cs.cornell.edu/~legunsen/pubs/ZhuETAL19RTSCheck.pdf"
+    },
+    {
+      "citation": "Y. Liu, J. Zhang, P. Nie, M. Gligoric, and O. Legunsen. More Precise Regression Test Selection via Reasoning about Semantics-Modifying Changes. ISSTA, pp. 664-676, 2023. DOI 10.1145/3597926.3598086.",
+      "url": "https://www.cs.cornell.edu/~legunsen/pubs/LiuETAL23FineRTS.pdf"
+    },
+    {
+      "citation": "P. Escaleira, V. A. Cunha, J. P. Barraca, D. Gomes, and R. L. Aguiar. Enhancing Serverless Function Resilience Against Vulnerabilities with MoFaaS. Journal of Network and Systems Management 34, article 72 (2026). DOI 10.1007/s10922-026-10054-5.",
+      "url": "https://link.springer.com/article/10.1007/s10922-026-10054-5"
+    },
+    {
+      "citation": "S. Sengupta, S. G. Vadlamudi, S. Kambhampati, M. Taguinod, A. Doupé, Z. Zhao, and G.-J. Ahn. Moving Target Defense for Web Applications using Bayesian Stackelberg Games. arXiv:1602.07024 (2016).",
+      "url": "https://arxiv.org/abs/1602.07024"
+    },
+    {
+      "citation": "OWASP Foundation. OWASP Juice Shop, version 20.3.0, deliberately insecure web application. Accessed 14 October 2026.",
+      "url": "https://owasp.github.io/www-project-juice-shop/"
+    },
+    {
+      "citation": "S. Zhou et al. WebArena: A Realistic Web Environment for Building Autonomous Agents. International Conference on Learning Representations, 2024.",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/4410c0711e9154a7a2d26f9b3816d1ef-Abstract-Conference.html"
+    },
+    {
+      "citation": "J. Y. Koh et al. VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics, pp. 881–905, 2024. DOI 10.18653/v1/2024.acl-long.50.",
+      "url": "https://aclanthology.org/2024.acl-long.50/"
+    },
+    {
+      "citation": "J. Ron, D. Gaspar, J. Cabrera-Arteaga, B. Baudry, and M. Monperrus. Galápagos: Automated N-Version Programming with LLMs. ACM Transactions on Software Engineering and Methodology 35(8), article 224, pp. 1–29, 2026. DOI 10.1145/3785363.",
+      "url": "https://arxiv.org/abs/2408.09536"
+    }
+  ]
+}
