@@ -1,0 +1,7 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+This license applies to the research data, measurements, reports, and table
+records in this release. Research-authored scripts have the separate MIT
+license in LICENSE-CODE.txt. Flask-derived material retains its upstream
+license and attribution in licenses/Flask-LICENSE.txt.
