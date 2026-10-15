@@ -1,0 +1,13 @@
+{
+  "title": "Data and code for Service-Preserving Generative Moving Target Defense for Web Applications",
+  "upload_type": "dataset",
+  "description": "Versioned evidence package for a standalone study of service-preserving generative moving target defense. Contains 60 accepted MiniShop and Flaskr generation source trees, generation and validation ledgers, matched local serving measurements, and bounded security evaluation records. Live rotation replay reused archived mappings and made no model calls; separately hosted AI rediscovery usage is identified separately. Includes SHA-256 manifests and a data dictionary. Does not include the manuscript draft, raw agent transcripts, screenshots, ephemeral sessions, or third-party application trees.",
+  "creators": [
+    {"name": "Yoon, YeoHoon", "affiliation": "Graduate School of AI, aSSIST University", "orcid": "0009-0007-2669-8127"},
+    {"name": "Kim, Kyung-Sung", "affiliation": "Graduate School of AI, aSSIST University", "orcid": "0009-0003-2591-9814"}
+  ],
+  "keywords": ["artificial intelligence", "web application security", "moving target defense", "intrusion detection", "adaptive defense", "API security", "reproducibility"],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "1.0.0"
+}
