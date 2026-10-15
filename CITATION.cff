@@ -11,5 +11,7 @@ authors:
     orcid: https://orcid.org/0009-0003-2591-9814
 version: "1.0.0"
 date-released: 2026-10-15
+doi: 10.5281/zenodo.23386390
+url: https://doi.org/10.5281/zenodo.23386390
 repository-code: https://github.com/YeoHoonYun/service-preserving-generative-mtd-data
 license: CC-BY-4.0
