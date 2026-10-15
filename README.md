@@ -26,4 +26,4 @@ Data and tables are licensed under CC BY 4.0. Research-authored scripts are lice
 
 ## Citation
 
-Use the version-specific Zenodo DOI for a precise snapshot. The concept DOI resolves to the latest version. `CITATION.cff` records the authors and title. Cite the manuscript separately once its public identifier is available.
+The archived version is [Zenodo v1.0.0](https://doi.org/10.5281/zenodo.23386390), DOI **10.5281/zenodo.23386390**. The [concept DOI](https://doi.org/10.5281/zenodo.23386389), **10.5281/zenodo.23386389**, resolves to the latest version. `CITATION.cff` records the authors and title. Cite the manuscript separately from this dataset.
