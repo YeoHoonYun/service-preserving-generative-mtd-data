@@ -1,23 +1,5 @@
 {
-  "mini": {
-    "planned_slots": 36,
-    "executed_slots": 36,
-    "joint_successes": 36,
-    "verified_harmful_successes": 0
-  },
-  "juice_generation": {
-    "planned_slots": 4,
-    "accepted_generations": 4
-  },
-  "juice_attack": {
-    "planned": 36,
-    "executed": 4,
-    "halted_reason": "provider usage unknown"
-  },
-  "juice_informed_replay": {
-    "planned": 18,
-    "executed": 18
-  },
-  "new_evidence_files": 308,
-  "total_evidence_files": 1785
+  "version": "2.1.0",
+  "three_arm_excluded": true,
+  "authoritative_audit": "V2_1_RELEASE_AUDIT.json"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Data and code for Service-Preserving Generative Moving Target Defense for Web Applications",
   "upload_type": "dataset",
-  "description": "Version 2 of the standalone study data companion. Adds prospectively registered MiniShop model/arm comparisons, bounded Juice Shop fixed-public-route generation, interrupted prospective attack records, a separate historical-case informed replay, and a Flaskr response-timing reinterpretation. The Juice Shop generated layer covers two edge operations, not the full application. Includes failed and rejected calls and limits; excludes raw auth tokens, provider transcripts, and third-party application source.",
+  "description": "Data-only v2-series release based on 60 accepted MiniShop/Flaskr generation slots, bounded four-candidate OWASP Juice Shop edge generation, and Flaskr fixed-target response timing. Excludes the S0/S1/S2 three-arm attack cohorts and manuscript files. The prior v2.0.0 DOI remains historical.",
   "creators": [
     {
       "name": "Yoon, YeoHoon",
@@ -25,5 +25,5 @@
   ],
   "license": "cc-by-4.0",
   "access_right": "open",
-  "version": "2.0.0"
+  "version": "2.1.0"
 }

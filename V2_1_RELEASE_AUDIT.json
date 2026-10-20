@@ -1,0 +1,20 @@
+{
+  "files": 1510,
+  "base_files": 1477,
+  "new_files": 33,
+  "juice_source_audit_entries_verified": 29,
+  "excluded_path_markers": [
+    "three-arm",
+    "prospective-three",
+    "informed-replay",
+    "replay_informed",
+    "analyze_prospective",
+    "correct_provider_status"
+  ],
+  "excluded_cohorts": [
+    "artifacts/prospective-three-arm-20261020",
+    "artifacts/juice-shop-three-arm-20261020",
+    "artifacts/juice-shop-informed-replay-20261020",
+    "artifacts/verified-results-20261021"
+  ]
+}

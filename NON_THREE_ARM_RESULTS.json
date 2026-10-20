@@ -1,0 +1,37 @@
+{
+  "release_scope": "data_only_no_S0_S1_S2_three_arm_cohorts",
+  "base_v1_evidence_files": 1477,
+  "new_evidence_files": 33,
+  "juice_shop_bounded_generation": {
+    "accepted_first_attempt": [
+      4,
+      4
+    ],
+    "unique_fingerprints": 4,
+    "model_requested": "gpt-6-astra",
+    "model_calls": 4,
+    "input_tokens": 34131,
+    "output_tokens": 1103,
+    "new_browser_session_passes": 4,
+    "old_session_pinned_after_three_rotations": true,
+    "observed_pin_exposure_lower_bound_seconds": 3.858,
+    "scope": "two-operation fixed-public-route edge adapter, not full application transformation"
+  },
+  "flaskr_fixed_target_response_timing": {
+    "targets": 4,
+    "ai_only_alert_to_policy_ms": 11852.0743,
+    "preauthored_fallback_alert_to_activation_ms": 0.0163,
+    "forged_fetch_harm": 4,
+    "forged_fetch_high_confidence_alerts": 0,
+    "new_model_calls": 0,
+    "rotation_effect_measured": false
+  },
+  "excluded_new_cohorts": [
+    "artifacts/prospective-three-arm-20261020",
+    "artifacts/juice-shop-three-arm-20261020",
+    "artifacts/juice-shop-informed-replay-20261020",
+    "artifacts/verified-results-20261021"
+  ],
+  "source_v2_0_0": "https://doi.org/10.5281/zenodo.23493022",
+  "source_v2_0_0_contains_excluded_cohorts": true
+}
