@@ -8,4 +8,4 @@ This release contains selected research data and code, not a paper. The archive 
 - `DATA_DICTIONARY.md`: field definitions and scope limitations.
 - `scripts/verify_release.py`: offline archive verification.
 
-The earlier [v2.0.0 DOI](https://doi.org/10.5281/zenodo.23493022) is historical and **does include** three-arm records. Use this release's version-specific DOI for the excluded-cohort dataset after its archive is published. The [concept DOI](https://doi.org/10.5281/zenodo.23386389) resolves to the latest version.
+The earlier [v2.0.0 DOI](https://doi.org/10.5281/zenodo.23493022) is historical and **does include** three-arm records. For this excluded-cohort dataset, use the [v2.1.0 DOI](https://doi.org/10.5281/zenodo.23519400). The [concept DOI](https://doi.org/10.5281/zenodo.23386389) resolves to the latest version. See [RELEASE_LINKS.md](RELEASE_LINKS.md) for the version index.
