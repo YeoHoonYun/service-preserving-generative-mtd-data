@@ -1,10 +1,10 @@
 # Service-preserving generative MTD: research data and code
 
-This repository is the **data and code companion**, not a second article, to the standalone manuscript *Service-Preserving Generative Moving Target Defense for Web Applications: Generation Costs, Contract-Invariant Validation, and Bounded Security Evidence* by YeoHoon Yoon and Kyung-Sung Kim. The release freezes the evidence available for the 14 October 2026 draft. It does not claim that the manuscript has been posted to SSRN or accepted by a journal.
+This repository is the **data and code companion**, not a second article, to the standalone manuscript *Service-Preserving Generative Moving Target Defense for Web Applications: Generation Costs, Contract-Invariant Validation, and Bounded Security Evidence* by YeoHoon Yoon and Kyung-Sung Kim. Version 2 adds separately labeled prospective cohorts through 20 October 2026; the v1 source evidence and manuscript table ledger remain archived for provenance. It does not claim that the manuscript has been posted to SSRN or accepted by a journal.
 
 ## Contents
 
-- `evidence.zip` contains `evidence/`, mirroring the relative paths of 1,477 selected local records and source files. The selection includes the 30 files hashed by the manuscript builder, per-run generation ledgers, and accepted MiniShop and Flaskr generation source. It excludes raw model transcripts, screenshots, databases, session traces, complete third-party application trees, and interrupted-call logs. `ARCHIVE_SHA256.txt` verifies the ZIP before extraction.
+- `evidence.zip` contains `evidence/`, mirroring the relative paths of 1,785 selected local records and source files. The selection includes the 30 files hashed by the manuscript builder, per-run generation ledgers, and accepted MiniShop and Flaskr generation source. It excludes raw model transcripts, screenshots, databases, session traces, complete third-party application trees, and raw interrupted-call transcripts. Failed-call metadata, including unknown usage, is retained in the v2 ledger. `ARCHIVE_SHA256.txt` verifies the ZIP before extraction.
 - `source_evidence_manifest.json` is the manuscript builder's provenance manifest. Its `evidence_sha256` field covers the 30 core records and scripts consumed or cited in the draft.
 - `DATA_MANIFEST.json` gives a SHA-256 digest for every staged evidence file.
 - `scripts/verify_release.py` checks both hash manifests without installing dependencies.
@@ -26,4 +26,8 @@ Data and tables are licensed under CC BY 4.0. Research-authored scripts are lice
 
 ## Citation
 
-The archived version is [Zenodo v1.0.0](https://doi.org/10.5281/zenodo.23386390), DOI **10.5281/zenodo.23386390**. The [concept DOI](https://doi.org/10.5281/zenodo.23386389), **10.5281/zenodo.23386389**, resolves to the latest version. `CITATION.cff` records the authors and title. Cite the manuscript separately from this dataset.
+This repository retains the [v1.0.0 DOI](https://doi.org/10.5281/zenodo.23386390); the version-specific v2 DOI is assigned only after Zenodo archives the v2 release. The [concept DOI](https://doi.org/10.5281/zenodo.23386389), **10.5281/zenodo.23386389**, resolves to the latest version. `CITATION.cff` records the authors and title. Cite the manuscript separately from this dataset.
+
+## Version 2 additions
+
+See `RELEASE_NOTES.md` and `V2_RELEASE_AUDIT.json`. The four Juice Shop candidates vary a bounded edge adapter while the public URLs and upstream application remain fixed. Do not pool its attack results with the separate MiniShop or Flaskr cohorts. MiniShop completed 36/36 prospective conditions with 0 verified harmful authorization outcomes; rotation added finite rediscovery cost but did not reduce harmful successes. The new Juice Shop cold/informed study stopped after 4/36 conditions because a model request was rejected; its failed call has unknown usage. A separate 18/18 informed historical-case replay made no new model calls and found that known login and search attacks survived all three arms with fixed public URLs.
