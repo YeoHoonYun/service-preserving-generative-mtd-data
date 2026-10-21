@@ -1,0 +1,16 @@
+{
+  "verified_utc": "2026-10-21T23:53:47.869175+00:00",
+  "zenodo_record": 23549123,
+  "doi": "10.5281/zenodo.23549123",
+  "concept_doi": "10.5281/zenodo.23386389",
+  "version": "2.3.0",
+  "github_release": "https://github.com/YeoHoonYun/service-preserving-generative-mtd-data/releases/tag/v2.3.0",
+  "zenodo_archive_file": "YeoHoonYun/service-preserving-generative-mtd-data-v2.3.0.zip",
+  "zenodo_archive_size": 1291111,
+  "source_archive_sha256": "e9adeba192451afa365ad895e71180732c2230196a2cf2606d1653558b60c889",
+  "inner_evidence_sha256": "b1cf34c0642b661a8e91b6c3ffa6084dd2901e4d1fc84fc7a05c6fb4a5866ee1",
+  "evidence_file_count": 1669,
+  "three_arm_paths_present": false,
+  "manuscript_artifacts_present": false,
+  "match": true
+}
