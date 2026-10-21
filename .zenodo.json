@@ -1,7 +1,7 @@
 {
   "title": "Data and code for Service-Preserving Generative Moving Target Defense for Web Applications",
   "upload_type": "dataset",
-  "description": "Data-only update retaining 60 MiniShop/Flaskr generation slots and adding bounded Juice Shop service-scope and RealWorld API replication (four accepted generations each), plus a four-generation frontend/backend facade and deterministic fixed-versus-rotating adaptation comparison on Juice Shop. Known upstream login bypass persists. No S0/S1/S2 three-arm cohorts, manuscript or third-party target source are included.",
+  "description": "Data-only update retaining all v2.2.0 evidence and adding five-application descriptive generation-cost accounting and four bounded Django Helpdesk API router/adapter generations. Seven Helpdesk calls include three rejected attempts; fixed HTTP contract and local rotation checks passed. Heterogeneous application scopes preclude a common cost-growth estimate. No three-arm cohort, manuscript, third-party target source, operational credential or raw model transcript is included.",
   "creators": [
     {
       "name": "Yoon, YeoHoon",
@@ -25,5 +25,5 @@
   ],
   "license": "cc-by-4.0",
   "access_right": "open",
-  "version": "2.2.0"
+  "version": "2.3.0"
 }

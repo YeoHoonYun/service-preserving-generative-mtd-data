@@ -1,3 +1,3 @@
-# Research data release v2.2.0
+# Research data release v2.3.0
 
-New local evidence adds bounded service-scope generation on OWASP Juice Shop, independent API replication on RealWorld Django Ninja, and actual storefront rendering plus backend response-projection variation on Juice Shop. The fixed/rotating deterministic client comparison shows stale-route invalidation and successful public-script rediscovery of a known upstream flaw. No new AI intrusion experiment is claimed. This data-only version retains the v2.1.0 no-three-arm selection and excludes manuscripts and third-party target source.
+Added local five-codebase cost accounting and a prospective four-generation Django Helpdesk bounded API router/adapter cohort. Its seven model calls include three rejected syntax attempts. The fixed HTTP contract and local rotation checks passed; the tested boundary does not replace authentication, data, views or frontend code. An earlier aborted onboarding cohort is retained separately with unknown timeout usage. This release makes no per-domain scaling-law or intrusion-prevention claim.

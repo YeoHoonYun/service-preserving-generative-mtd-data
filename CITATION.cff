@@ -9,8 +9,8 @@ authors:
   - family-names: Kim
     given-names: Kyung-Sung
     orcid: https://orcid.org/0009-0003-2591-9814
-version: "2.2.0"
-date-released: 2026-10-21
+version: "2.3.0"
+date-released: 2026-10-22
 doi: 10.5281/zenodo.23386389
 url: https://doi.org/10.5281/zenodo.23386389
 repository-code: https://github.com/YeoHoonYun/service-preserving-generative-mtd-data

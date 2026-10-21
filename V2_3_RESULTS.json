@@ -1,0 +1,40 @@
+{
+  "version": "2.3.0",
+  "base_version": "2.2.0",
+  "three_arm_cohorts_included": false,
+  "evidence_files_previous": 1628,
+  "evidence_files_added": 41,
+  "evidence_files_total": 1669,
+  "domain_cost": {
+    "independent_codebases": 5,
+    "accepted_generations": 20,
+    "provider_calls": 24,
+    "input_plus_output_tokens": 334019,
+    "scope_heterogeneous": true
+  },
+  "helpdesk_completed_cohort": {
+    "accepted_generations": 4,
+    "provider_calls": 7,
+    "rejected_calls": 3,
+    "input_tokens": 73354,
+    "output_tokens": 5201,
+    "rejected_call_tokens": 35064,
+    "baseline_oracle_checks_passed": 36,
+    "variant_oracle_checks_passed": 36,
+    "local_rotation_transitions_passed": 4,
+    "scope": "six-operation API router/adapter; upstream auth, views, data and frontend fixed"
+  },
+  "helpdesk_aborted_cohort": {
+    "path": "artifacts/helpdesk-replication-20261021/generation",
+    "accepted_generations": 2,
+    "known_input_plus_output_tokens": 21520,
+    "usage_unknown": true,
+    "included_in_five_domain_total": false
+  },
+  "limitations": [
+    "No matched causal estimate of cost growth per additional service.",
+    "No full Helpdesk frontend/backend generation or security efficacy claim.",
+    "A timed-out onboarding model call has unknown token usage.",
+    "Demo-only latency sampling does not estimate production operating cost."
+  ]
+}
