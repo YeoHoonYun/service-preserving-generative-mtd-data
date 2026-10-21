@@ -1,0 +1,59 @@
+{
+  "version": "2.2.0",
+  "base_version": "2.1.0",
+  "three_arm_cohorts_included": false,
+  "evidence_files_previous": 1510,
+  "evidence_files_added": 118,
+  "evidence_files_total": 1628,
+  "juice_shop_service_scope": {
+    "accepted_generations": 4,
+    "generated_operations": 10,
+    "candidate_checks_passed": 48,
+    "known_login_bypass_persisted": 4,
+    "provider_usage": {
+      "calls_recorded": 4,
+      "usage_unknown": false,
+      "input_tokens": 42244,
+      "output_tokens": 2261,
+      "cached_input_tokens": 0
+    }
+  },
+  "realworld_api_replication": {
+    "accepted_generations": 4,
+    "generated_operations": 6,
+    "variant_checks_passed": 44,
+    "provider_usage": {
+      "calls_recorded": 4,
+      "usage_unknown": false,
+      "input_tokens": 41626,
+      "output_tokens": 1397,
+      "cached_input_tokens": 0
+    }
+  },
+  "juice_shop_implementation_adaptation": {
+    "frontend_algorithms": 4,
+    "backend_projection_algorithms": 4,
+    "http_oracle_passed": 4,
+    "browser_oracle_passed": 4,
+    "matched_pairs": 3,
+    "fixed_known_bypass_success": 3,
+    "rotated_adapted_known_bypass_success": 3,
+    "fixed_median_http_requests": 2,
+    "rotated_median_http_requests": 3,
+    "new_ai_attack_calls": 0,
+    "new_ai_attack_tokens": 0
+  },
+  "claim_boundary": [
+    "The generated scope is a bounded application facade; upstream auth and DB are fixed.",
+    "The new Juice Shop adaptation client is deterministic, not an LLM attack agent.",
+    "The known login flaw persisted after public-script route rediscovery.",
+    "RealWorld replication is API-only; no frontend E2E there.",
+    "No security advantage or production isolation is established."
+  ],
+  "excluded": [
+    "S0/S1/S2 three-arm source cohorts and derived model-comparison aggregate",
+    "manuscript Word/PDF",
+    "third-party target application source",
+    "raw provider transcripts and credentials"
+  ]
+}

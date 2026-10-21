@@ -1,7 +1,7 @@
 {
   "title": "Data and code for Service-Preserving Generative Moving Target Defense for Web Applications",
   "upload_type": "dataset",
-  "description": "Data-only v2-series release based on 60 accepted MiniShop/Flaskr generation slots, bounded four-candidate OWASP Juice Shop edge generation, and Flaskr fixed-target response timing. Excludes the S0/S1/S2 three-arm attack cohorts and manuscript files. The prior v2.0.0 DOI remains historical.",
+  "description": "Data-only update retaining 60 MiniShop/Flaskr generation slots and adding bounded Juice Shop service-scope and RealWorld API replication (four accepted generations each), plus a four-generation frontend/backend facade and deterministic fixed-versus-rotating adaptation comparison on Juice Shop. Known upstream login bypass persists. No S0/S1/S2 three-arm cohorts, manuscript or third-party target source are included.",
   "creators": [
     {
       "name": "Yoon, YeoHoon",
@@ -25,5 +25,5 @@
   ],
   "license": "cc-by-4.0",
   "access_right": "open",
-  "version": "2.1.0"
+  "version": "2.2.0"
 }
